@@ -3,7 +3,7 @@ apiVersion: v1
 kind: ConfigMap
 metadata:
   name: gitlab-8.10.3-defaults
-  namespace: ${releaseNamespace}
+  namespace: gitlab
 data:
   values.yaml: |-
     certmanager:
